@@ -8,6 +8,6 @@ class date implements Serializable {
 	}
 
 	def setCurrentDate(){
-		currentDate = new SimpleDateFormat("yyyyMMddHHmm").format(new Date()
+		currentDate = new SimpleDateFormat("yyyyMMddHHmm").format(new Date())
 	}
 }
