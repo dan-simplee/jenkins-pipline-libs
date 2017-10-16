@@ -1,8 +1,13 @@
 import java.text.SimpleDateFormat
-def getCurrentDate(){
-	currentDate
-}
+class date implements Serializable {
+	private String currentDate
 
-def setCurrentDate(){
-	currentDate = new SimpleDateFormat("yyyyMMddHHmm").format(new Date()
+	def getCurrentDate(){
+		setCurrentDate()
+		currentDate
+	}
+
+	def setCurrentDate(){
+		currentDate = new SimpleDateFormat("yyyyMMddHHmm").format(new Date()
+	}
 }
