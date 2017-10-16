@@ -1,3 +1,4 @@
 import java.text.SimpleDateFormat
-def dateFormat = new SimpleDateFormat("yyyyMMddHHmm")
-def currentDate = dateFormat.format(new Date())
+def getCurrentDate(){
+	def currentDate = new SimpleDateFormat("yyyyMMddHHmm").format(new Date())
+}
